@@ -2,7 +2,7 @@ require("dotenv").config(); // Load evn varialbes
 const express = require("express");
 const morgan = require("morgan");
 const methodOverride = require("method-override");
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT
 const Fruit = require("./models/fruit");
 const FruitRouter = require("./controllers/fruit")
 const app = express();
